@@ -1,0 +1,10 @@
+<idea-plugin version="2">
+
+  <name>AutoIndent</name>
+  <description>Plugin for automatically detecting and configuring indentation for source files</description>
+  <version>0.9</version>
+  <vendor>Christian Stettler</vendor>
+
+  <idea-version since-build="117.105"/>
+
+</idea-plugin>
