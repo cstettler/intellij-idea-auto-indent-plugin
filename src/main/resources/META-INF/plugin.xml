@@ -7,4 +7,10 @@
 
   <idea-version since-build="117.105"/>
 
+  <project-components>
+    <component>
+      <implementation-class>ch.chste.idea.autoindent.IndentationSelector</implementation-class>
+    </component>
+  </project-components>
+
 </idea-plugin>
