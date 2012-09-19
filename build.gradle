@@ -1,10 +1,19 @@
-
 apply plugin: 'java'
 
 repositories {
     mavenCentral()
+
+    flatDir {
+        name 'localLibraries'
+        dirs 'lib'
+    }
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.10'
+    compile 'idea:annotations:117.798'
+    compile 'idea:idea:117.798'
+    compile 'idea:openapi:117.798'
+    compile 'idea:util:117.798'
+
+    testCompile 'junit:junit:4.10'
 }
